@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+
+<head>
+    <title>Untitled Page</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#button').click(function(e) {  
+        var inputnumber = $("#input_number").val();
+        var inputcode = $("#input_code").val();
+        window.location.replace("/check_verification/"+inputnumber+'/'+inputcode+'/');
+
+    });
+});
+</script> 
+</head>
+<body>
+
+
+
+
+	   <input type="hidden" id="input_number" value="{{phone_number}}"> 
+       <input type="text" placeholder=" Enter verification code" id="input_code"> 
+       <button type="button" id="button"> Continue </button>
+</body>
+</html>

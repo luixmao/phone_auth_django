@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Untitled Page</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('#button').click(function(e) {  
+        var inputcountry = $("#input_country").val();
+        var inputvalue = $("#input_num").val();
+        window.location.replace("/check_number/"+inputcountry+'/'+inputvalue+'/');
+
+    });
+});
+</script> 
+</head>
+<body>
+	   <input type="text" value="1" id="input_country"> 
+       <input type="text" value="11" id="input_num"> 
+       <button type="button" id="button"> Continue </button>
+</body>
+</html>

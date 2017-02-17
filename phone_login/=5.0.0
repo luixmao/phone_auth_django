@@ -1,0 +1,17 @@
+Collecting twilio
+  Downloading twilio-5.7.0.tar.gz (168kB)
+Collecting httplib2>=0.7 (from twilio)
+  Downloading httplib2-0.10.3.tar.gz (204kB)
+Requirement already satisfied: six in /Users/Luis/Desktop/snippets_test_code/phone_login_django/venv/lib/python2.7/site-packages (from twilio)
+Collecting pytz (from twilio)
+  Downloading pytz-2016.10-py2.py3-none-any.whl (483kB)
+Building wheels for collected packages: twilio, httplib2
+  Running setup.py bdist_wheel for twilio: started
+  Running setup.py bdist_wheel for twilio: finished with status 'done'
+  Stored in directory: /Users/Luis/Library/Caches/pip/wheels/dd/83/a8/9646f28bc49ce3762c0962bd9efbd2b7d86308a0de6db4e23b
+  Running setup.py bdist_wheel for httplib2: started
+  Running setup.py bdist_wheel for httplib2: finished with status 'done'
+  Stored in directory: /Users/Luis/Library/Caches/pip/wheels/ca/ac/5f/749651f7925b231103f5316cacca82a487810c22d30f011c0c
+Successfully built twilio httplib2
+Installing collected packages: httplib2, pytz, twilio
+Successfully installed httplib2-0.10.3 pytz-2016.10 twilio-5.7.0
